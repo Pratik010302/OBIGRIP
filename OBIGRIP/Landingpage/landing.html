@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page of Gym</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <style>
+      body {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQi9vdozBYaAFlThasPSS6ZJJZIn3AWGbsA&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYQi9vdozBYaAFlThasPSS6ZJJZIn3AWGbsA&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .navbar {
+        background-color: black;
+        border-radius: 30px;
+      }
+      .navbar li {
+        list-style: none;
+        float: left;
+        margin: 13px 20px;
+      }
+      .navbar ul {
+        overflow: auto;
+      }
+      .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+      }
+      .navbar li a:hover {
+        color: brown;
+      }
+      .search {
+        float: right;
+        padding: 12px 75px;
+        color: white;
+      }
+      .navbar input {
+        border-radius: 5px;
+        border: 2px solid black;
+        padding: 3px 17px;
+      }
+      .container {
+        margin: 150px;
+        margin-top: 50px;
+        border-radius: 20px;
+        background-color: grey;
+        height: 750px;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_UHuvmbsGAaAn3wWlQaqMoEk_UQpdo_mQUWhOR4CEBK70iauhydGwCmdm3ba051gD5w&usqp=CAU");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .cont {
+        width: 50%;
+        display: inline-block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">contact</a></li>
+          <a href="#"
+            ><button
+              style="
+                background-color: green;
+                height: 25px;
+                width: 100px;
+                margin-top: 15px;
+                cursor: pointer;
+                border-radius: 5px;
+              "
+            >
+              Login
+            </button></a
+          >
+          <a href="#"
+            ><button
+              style="
+                background-color: green;
+                height: 25px;
+                width: 100px;
+                margin-top: 15px;
+                cursor: pointer;
+                border-radius: 5px;
+              "
+            >
+              SignUP
+            </button></a
+          >
+
+          <div class="search">
+            <input
+              type="text"
+              class=""
+              name="search"
+              id="serach"
+              placeholder="Search here"
+            />
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <div class="container">
+      <div class="cont">
+        <h1
+          style="
+            font-size: 80px;
+            color: orangered;
+            margin: 50px;
+            font-style: italic;
+          "
+        >
+          Get Fit<br />Together...
+        </h1>
+
+        <h3
+          style="
+            color: white;
+            margin-left: 30px;
+            font-style: italic;
+            font-size: 40px;
+          "
+        >
+          Explore the benefits you may due...
+        </h3>
+        <a href="#"
+          ><button
+            style="
+              height: 70px;
+              width: 200px;
+              background-color: white;
+              color: black;
+              margin-left: 50px;
+              font-style: italic;
+              font-size: 30px;
+              border-radius: 20px;
+              background-color: cadetblue;
+              cursor: pointer;
+            "
+          >
+            Join Now
+          </button></a
+        ><br /><br /><br /><br /><br />
+        <hr />
+      </div>
+    </div>
+    <hr />
+
+    <style>
+      .form {
+        height: auto;
+        width: 100%;
+      }
+      .f1 {
+        line-height: 3px;
+        margin-left: 50px;
+        display: inline-block;
+      }
+    </style>
+
+    <div class="form" style="color: white; margin: 20px">
+      <h2 style="color: crimson; font-size: 30px">
+        Any Question?<br />Please ask:
+      </h2>
+
+      <form class="f1" id="form">
+        <label for="fname"><h3>Name:</h3></label>
+        <input type="text" id="fname" name="fname" />
+
+        <label for="contact"><h3>Contact No:</h3></label>
+        <input type="text" id="fname" />
+
+        <label for="Ask Doubt"><h3>Doubt:</h3></label>
+        <input type="text" id="fname" /><br /><br />
+
+        <button
+          type="submit"
+          class="submit"
+          style="background-color: green; font-size: 20px; border-radius: 5px"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <hr />
+    <style>
+      .foot {
+        background-color: cadetblue;
+        height: fit-content;
+      }
+
+      footer ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 25px;
+      }
+      
+      footer li:hover {
+        color: white;
+        background-color:yellowgreen;
+        border-radius: 5px;
+      }
+    </style>
+    <footer>
+      <div class="foot">
+        <marquee behavior="alternate" direction="left" scrollamount="10"
+          ><h2
+            style="
+              font-style: italic;
+              font-size: 50px;
+              color: rgb(206, 164, 59);
+              background-color: black;
+              width: fit-content;
+            "
+          >
+            Visit Again
+          </h2></marquee
+        >
+
+        <h2 style="font-size: 30px; margin-left: 30px; color: white">
+          Follow On:
+        </h2>
+
+        <ul>
+          <li>
+            <a href="#" target="_blank" style="color:black">Instagram</a>
+          </li>
+          <li>
+            <a href="3" target="_blank" style="color:black">Facebook</a>
+          </li>
+          <li>
+            <a href="#" target="_blank" style="color:black">Linkdin</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
